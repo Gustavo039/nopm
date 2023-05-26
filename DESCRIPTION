@@ -1,0 +1,37 @@
+Package: Mmcsd
+Title: 	Modeling Complex Longitudinal Data in a Quick and Easy Way
+Version: 1.0.0
+Authors@R: 
+    c(person(given = "Pedro",
+           family = "Pacheco",
+           role = c("aut", "cre"),
+           email = "pedrohmp36@gmail.com",
+           comment = c(ORCID = "0000-0003-4804-1576")),
+      person(given = "Marcel",
+           family = "Vieira",
+           role = "aut",
+           email = "marcel.vieira@ufjf.br",
+           comment = c(ORCID = "0000-0002-0456-380X")),
+      person(given = "Gustavo",
+           family = "Silva",
+           role = "aut",
+           email = "gustavoalmeidasilva@ice.ufjf.br"))
+Description: Matching longitudinal methodology models with complex sampling design. It fits fixed
+    and random effects models and covariance structured models so far. It also
+    provides tools to perform statistical tests considering these specifications as described in : Pacheco, P. H. (2021). Modelagem de dados longitudinais complexos no R: desenvolvimento de um pacote estatístico. <https://repositorio.ufjf.br/jspui/bitstream/ufjf/13437/1/pedrohenriquedemesquitapacheco.pdf>.
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    knitr,
+    magrittr,
+    methods,
+    purrr,
+    rlist,
+    stats,
+    tibble,
+    tidyr
+Depends: 
+    R (>= 2.10)
